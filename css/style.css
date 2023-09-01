@@ -26,9 +26,28 @@ li elements}
 p {
     color: #ff0000;
 }
+Parentcontainer{
+    display: flex;
+    background-color: aqua;
+    padding: 15px;
+}
 
-
-   
+.flex_container{
+    display :flex;
+    flex-direction:column;
+}
+.flex_container{
+    display:flex;
+    flex-direction: row;
+}
+.flex_container{align-items: flex-start}   
+#child2 {display: flex
+    ;}
+    #child1{flex-grow: 1
+        background- color: orange;
+    height:30 px;
+with: 60px;
+}
 
 
 
