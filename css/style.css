@@ -1,12 +1,12 @@
 
 
    #nav{display: inline-block;vertical-align: top;}
-   .logo(
+   .logo{
     width: 23%;
     padding: 1%;
     text-align: center;
-   )
-   p ~ ul {width: 50%; <margin-left: auto;}
+   }
+   p ~ ul {width: 50%; margin-left: auto;}
 #heroimg {
     text-align: center;
    height: 600px; 
@@ -16,7 +16,7 @@
     max-width: 200px; 
 }
 .footer{
-    background color: #373738;
+    background-color: #373738;
     padding: center; p ~ ul;ui
 }
 .footer{inline-block; vertical-align:top;}
@@ -24,7 +24,7 @@
 li elements}
 
 p {
-    color: #ff0000;
+   color: #00FFFF;
 }
 Parentcontainer{
     display: flex;
@@ -44,12 +44,30 @@ Parentcontainer{
 #child2 {display: flex
     ;}
     #child1{flex-grow: 1
-        background- color: orange;
-    height:30 px;
-with: 60px;
+ background-color:orange;
+    height:30px;
+width: 60px;
 }
 
-
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {display: inline-block;}
+  ul li:hover {background: #555;}
+  ul li:hover ul {display: block;}
+  ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+  }
+  ul li ul li {
+    background: #555;
+    display: block;
+  }
+  ul li ul li a {display:block !important;}
+  ul li ul li:hover {background: #666;}
 
 
 
